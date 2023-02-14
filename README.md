@@ -7,4 +7,4 @@ La finalidad de este proyecto es repasar conceptos del framework, ya que este co
 Para tener todas las dependencias del proyecto, es necesario que ejecute un archivo que se encuentra en la carpeta del proyecto "Marketplace", el cual se llama requirements.txt
 
 
-                pip install -r requirements.txt
+                             pip install -r requirements.txt
