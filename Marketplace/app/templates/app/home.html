@@ -43,8 +43,9 @@
     <div class="producto">
 
         <div class="contenedor_producto">
-
-            <img src="{% static 'app/img/lenovo_tablet.jpeg'%}" alt="imagen producto">
+            {% if p.image %}
+            <img src="{{ p.image.url }}" alt="imagen producto">
+            {% endif %}
             <div class="detalle">
                 <h5>{{ p.marca | capfirst }}</h5> <!-- capfirst deja la primera letra en mayuscula -->
                 <h2>{{ p.nombre | title }}</h2> <!-- title da formato de titulos -->

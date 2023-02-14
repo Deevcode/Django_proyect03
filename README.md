@@ -8,3 +8,4 @@ Para tener todas las dependencias del proyecto, es necesario que ejecute un arch
 
 
                              pip install -r requirements.txt
+

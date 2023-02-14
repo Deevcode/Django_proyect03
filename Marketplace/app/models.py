@@ -13,6 +13,7 @@ class Producto(models.Model):
     nuevo = models.BooleanField()
     marca = models.ForeignKey(Marca, on_delete=models.PROTECT) # (protege los productos asociados a la marca [protect])
     fecha_fabricacion = models.DateField()
+    image = models.ImageField(upload_to="productos", null=True)
 
     def __str__ (self):
         return self.nombre # retorna el valor mas representativo de la tabla
